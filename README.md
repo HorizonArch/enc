@@ -15,5 +15,19 @@ A lightweight C++ encoding and decoding toolkit supporting **Base32, Base64, Hex
 ## Installation
 Clone the repository:
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/HorizonArch/enc.git
+cd enc
+```
+## How to use it
+For Linux:
+```sh
+g++ app.cpp -o enc
+./enc <base64/base32/hex/caesar/binary> <encode/decode> <value>
+```
+For Windows:
+```PS
+g++ app.cpp -o enc
+.\enc <base64/base32/hex/caesar/binary> <encode/decode> <value>
+```
+
+
